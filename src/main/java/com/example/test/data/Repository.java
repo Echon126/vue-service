@@ -11,7 +11,15 @@ public class Repository {
             new TableData("zhangsan", 10, "beijing", new Date()),
             new TableData("lisi", 20, "xian", new Date()),
             new TableData("zhaoliu", 30, "shanghai", new Date()),
-            new TableData("Mikon",19,"newyouke",new Date()));
+            new TableData("Mikon001",19,"newyouke",new Date()),
+            new TableData("Mikon002",19,"newyouke",new Date()),
+            new TableData("Mikon003",19,"newyouke",new Date()),
+            new TableData("Mikon004",19,"newyouke",new Date()),
+            new TableData("Mikon005",19,"newyouke",new Date()),
+            new TableData("Mikon006",19,"newyouke",new Date()),
+            new TableData("Mikon007",19,"newyouke",new Date()),
+            new TableData("Mikon010",19,"newyouke",new Date()),
+            new TableData("Mikon011",19,"newyouke",new Date()));
 
     /**
      * 根据年龄查询
