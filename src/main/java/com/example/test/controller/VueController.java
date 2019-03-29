@@ -12,10 +12,11 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
+@RequestMapping(value="/api")
 public class VueController {
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
-    @RequestMapping(value = "/login/loginbyemail", method = RequestMethod.POST)
+    @RequestMapping(value = "/login/loginbyemail")
     public VueUser queryUserInfo() {
         this.log.info("调用后台服务" + new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         return new VueUser("Super Admin", "[admin]", "我是超级管理员", "admin", "0001");
